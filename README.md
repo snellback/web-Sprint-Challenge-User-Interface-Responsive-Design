@@ -73,7 +73,7 @@ Review the provided design file for the home page.
 * [X] Link the h1 page title to the [index.html](index.html) page.
 * [X] Link the `Menu` navigation item to the [menu.html](menu.html) page.
 * [X] Create social media buttons on header for [Facebook](https://fontawesome.com/search?q=facebook&s=solid%2Cbrands), [Twitter](https://fontawesome.com/search?q=twitter&s=solid%2Cbrands), and [Instagram](https://fontawesome.com/search?q=instagram&s=solid%2Cbrands) with the linked icons.
-* [ ] Build the rest of the home page layout to match the design. Much of it has already been implemented; you should only need to fix the header, footer, and gallery portions.
+* [X] Build the rest of the home page layout to match the design. Much of it has already been implemented; you should only need to fix the header, footer, and gallery portions.
 ​
 Colors and fonts:
 Light text: rgb(225, 239, 230);
