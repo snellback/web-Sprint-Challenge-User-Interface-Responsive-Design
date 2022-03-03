@@ -94,7 +94,7 @@ p, a {
 /* header section */
 header {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     background-image: url('../img/menu-header.jpg');
     background-size: cover;
     background-position: center;
@@ -107,14 +107,12 @@ header {
     width: 100%;
     background-color:rgb(0, 4, 17, .8);
     padding-top: 2%;
-    border: 1px solid red;
 }
 
 .header-menu{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    border: 1px solid red;
     margin: 1% 0;
 }
 
@@ -151,10 +149,59 @@ h1{
     width: 100%;
     height: auto;
     background-image: url('../img/staff-bartender.jpg');
-    background-color: rgb(0, 4, 17);
+    background-color: rgb(0, 4, 17, .8);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(0,4,17,.8);
+}
+
+.menu h2 {
+    text-align: center;
+    padding: 4% 0 2% 0;
+}
+
+.all-menu-items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 15%;
+    padding-bottom: 5%;;
+}
+
+.layout {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-section {
+    display: flex;
+    width: 35%;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    padding-top: 4%;
+}
+
+.menu-section h3 {
+    padding-bottom: 2%;
+}
+
+.menu-item {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: stretch;
+    flex-grow: 1;
+    padding-bottom: 4%;
+}
+
+.name-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item h4 {
+    display: inline-block;
 }
 
 /* footer section */
@@ -210,13 +257,21 @@ footer p {
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
-    .header-title {
-        width: 75%;
-        margin: 0 auto;
-        text-align: center;
+    h1 {
         font-size: 4rem;
+        width: 70%;
+        margin: 3% 0 3% 15%;
     }
-
+    .header-menu {
+        display:flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-icons i {
+        font-size: 3rem;
+        margin: 3% 1% 4% 1%;
+    }
     /* menu */
     .menu {
         background-image: none;
@@ -227,5 +282,39 @@ footer p {
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    label {
+        font-size: .3rem;
+    }
+    .footer-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-left: 20%;
+    }
+    .input {
+        display: flex;
+        justify-content: center;
+    }
+    .input input, button {
+        font-size: 2rem;
+    }
+    footer p {
+        font-size: 1.5rem;
+        text-align: center;
+        width: 80%;
+        margin-right: 6%;
+        margin-top: 7%;
+        margin-bottom: 2%;
     }
 }

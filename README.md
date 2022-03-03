@@ -56,7 +56,7 @@ You **must** use the Google Chrome developer tools during your HTML/CSS implemen
 ​
 * [X] Desktop size should be responsive at 1920px width.
 * [ ] Mobile size should be responsive at 428px width.
-* [ ] Don't forget your viewport meta tag!
+* [X] Don't forget your viewport meta tag!
 ​
 **NOTE: You may notice that your design doesn't look great between these sizes. This is totally normal; for a real product, there would be at least a tablet size intermediary design and likely several more breakpoints to improve the experience for a variety of screen sizes. If you would like to practice more, feel free to make the project look great at all sizes!**
 ​
@@ -87,11 +87,11 @@ Review the provided design files for the menu page.
 ​
 * [X] Copy and paste your home page header and footer into the menu page.
 * [X] Update the header image with the menu page image.
-* [ ] Use the article element for the menu and a div inside of it; change the div's class to "menu-container"
-* [ ] Create a container for each section (e.g. drinks or entrees) with class "menu-section"
-* [ ] Create a container for each item (e.g. soda or burger) with class "menu-item"
-* [ ] Add an H4 for every price and title of the menu, two h4 for each menu
-* [ ] Add a p element for every description, second line such as (v) will require it's own p
+* [X] Use the article element for the menu and a div inside of it; change the div's class to "menu-container"
+* [X] Create a container for each section (e.g. drinks or entrees) with class "menu-section"
+* [X] Create a container for each item (e.g. soda or burger) with class "menu-item"
+* [X] Add an H4 for every price and title of the menu, two h4 for each menu
+* [X] Add a p element for every description, second line such as (v) will require it's own p
 ​
 Colors and fonts for desktop:
 Light text: rgb(225, 239, 230);

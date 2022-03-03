@@ -294,15 +294,54 @@ footer p {
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
-    
-
+    header {
+        width: 100%;
+        height: 100vh;
+        background-image: url('../img/home-header.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    h1 {
+        font-size: 4rem;
+        width: 70%;
+        margin: 3% 0 3% 15%;
+    }
+    .header-menu {
+        display:flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-icons i {
+        font-size: 3rem;
+        margin: 3% 1% 4% 1%;
+    }
     /* gallery section */
     .gallery {
         height: auto;
     }
     
-    /* about us section */
+    .images {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+    
+    .row {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        width: 100%;
+        gap: 4%;
+        margin-bottom: 5%;
+    }
 
+    .row img {
+        margin-bottom: 5%;
+    }
+
+    /* about us section */
     .about {
         height: 200vh;
     }
@@ -344,5 +383,39 @@ footer p {
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    label {
+        font-size: .3rem;
+    }
+    .footer-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-left: 20%;
+    }
+    .input {
+        display: flex;
+        justify-content: center;
+    }
+    .input input, button {
+        font-size: 2rem;
+    }
+    footer p {
+        font-size: 1.5rem;
+        text-align: center;
+        width: 80%;
+        margin-right: 6%;
+        margin-top: 7%;
+        margin-bottom: 2%;
     }
 }
